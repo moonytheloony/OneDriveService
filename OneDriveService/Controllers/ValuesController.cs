@@ -15,7 +15,7 @@ namespace OneDriveService.Controllers
         // GET api/values
         public string Get()
         {
-            var data = "<h1>Files on Your OneDrive</h1>";
+            var data = "<h1>Files in Your OneDrive</h1>";
             foreach (var value in files)
             {
                 data += "<p>" + value.FileName + "</p>";
